@@ -10,11 +10,12 @@
 
 namespace event_bus
 {
+    // 事件基类
     class Event
     {
     public:
         virtual ~Event() {}
-        virtual std::string GetName()
+        virtual std::string GetName() // 获取结构体名
         {
             return typeid(*this).name();
         }

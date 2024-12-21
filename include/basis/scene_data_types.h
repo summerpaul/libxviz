@@ -2,7 +2,7 @@
  * @Author: Xia Yunkai
  * @Date:   2024-07-05 14:15:14
  * @Last Modified by:   Xia Yunkai
- * @Last Modified time: 2024-12-18 11:20:14
+ * @Last Modified time: 2024-12-20 11:06:19
  */
 
 #ifndef __SCENE_DATA_TYPES_H__
@@ -42,6 +42,9 @@ namespace basis
         bool selected = false;      // 是否被选中
         bool useOwnOptions = false; // 是否使用单独配置
         Color color;                // 颜色
+        // 与pose相关选项
+        float arrow_length = 0.5f; // 箭头长度
+        float arrow_width = 0.1f;  // 箭头宽度
     };
 
     //数据基类

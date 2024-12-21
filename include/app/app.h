@@ -2,7 +2,7 @@
  * @Author: Xia Yunkai
  * @Date:   2024-07-05 10:38:22
  * @Last Modified by:   Xia Yunkai
- * @Last Modified time: 2024-12-18 15:04:12
+ * @Last Modified time: 2024-12-18 15:30:10
  */
 
 #ifndef __APP_H__
@@ -35,7 +35,6 @@ namespace app
      * @brief 析构函数
      * 
      */
-
     virtual ~App();
 
     /**
